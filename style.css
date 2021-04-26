@@ -1,0 +1,62 @@
+.head{
+      
+    background-color: yellow;
+    border:solid;
+    font-family: fantasy;
+     }
+  
+     .note{
+       background-color: orange;
+       border: dotted;
+     }
+
+.menu{
+  display: flex;
+     justify-content: space-between;
+     padding: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: #f4f4f5;
+}
+
+.img{
+  border: solid;
+}
+  
+  .grid {
+    background: darkred;
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .origami {
+    border: 1px solid #8db817;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:rgb(121, 229, 233);
+    border-width: 6px;
+    font-family: 'Franklin Gothic Medium';
+   
+  }
+  
+  
+  
+  
+  
+  a{text-decoration: none;}
+  a:link{color:rgb(32, 32, 194)};
+   a:visited{color:white}
+
+   .origami:hover{
+     transform: scale(1.2);
+     background-color: rgba(211,200,199,0.5);
+   }
+  
